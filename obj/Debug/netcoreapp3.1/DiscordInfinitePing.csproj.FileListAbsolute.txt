@@ -1,0 +1,15 @@
+D:\GitHub\DiscordInfinitePing\bin\Debug\netcoreapp3.1\DiscordInfinitePing.exe
+D:\GitHub\DiscordInfinitePing\bin\Debug\netcoreapp3.1\DiscordInfinitePing.deps.json
+D:\GitHub\DiscordInfinitePing\bin\Debug\netcoreapp3.1\DiscordInfinitePing.runtimeconfig.json
+D:\GitHub\DiscordInfinitePing\bin\Debug\netcoreapp3.1\DiscordInfinitePing.runtimeconfig.dev.json
+D:\GitHub\DiscordInfinitePing\bin\Debug\netcoreapp3.1\DiscordInfinitePing.dll
+D:\GitHub\DiscordInfinitePing\bin\Debug\netcoreapp3.1\DiscordInfinitePing.pdb
+D:\GitHub\DiscordInfinitePing\obj\Debug\netcoreapp3.1\DiscordInfinitePing.csprojAssemblyReference.cache
+D:\GitHub\DiscordInfinitePing\obj\Debug\netcoreapp3.1\DiscordInfinitePing.AssemblyInfoInputs.cache
+D:\GitHub\DiscordInfinitePing\obj\Debug\netcoreapp3.1\DiscordInfinitePing.AssemblyInfo.cs
+D:\GitHub\DiscordInfinitePing\obj\Debug\netcoreapp3.1\DiscordInfinitePing.csproj.CoreCompileInputs.cache
+D:\GitHub\DiscordInfinitePing\obj\Debug\netcoreapp3.1\DiscordInfinitePing.dll
+D:\GitHub\DiscordInfinitePing\obj\Debug\netcoreapp3.1\DiscordInfinitePing.pdb
+D:\GitHub\DiscordInfinitePing\obj\Debug\netcoreapp3.1\DiscordInfinitePing.genruntimeconfig.cache
+D:\GitHub\DiscordInfinitePing\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\GitHub\DiscordInfinitePing\obj\Debug\netcoreapp3.1\DiscordInfinitePing.csproj.CopyComplete
