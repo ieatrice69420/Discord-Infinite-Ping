@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3ahm60FtwbTVwKYUXVlzjToMy/P//T9fLGUIYvvqd6aWZO/aeQtTV7sAlNA6NByHTAiI+jBTIA+3Xac7peZ5TQ==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\Discord-Infinite-Ping\\Discord-Infinite-Ping\\Discord-Infinite-Ping\\Discord-Infinite-Ping.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
