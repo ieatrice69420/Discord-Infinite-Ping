@@ -9,6 +9,11 @@ namespace DiscordInfinitePing
 {
     static class Program
     {
+        // Change this path to change settings file location.
+        public static string settingsPath = @"c:\Discord-Infinite-Ping\settings.json";
+        public static Settings settings = new Settings(10, 20, true);
+
+
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
@@ -18,27 +23,31 @@ namespace DiscordInfinitePing
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new discordInfinitePingWindow());
 
-            // Change this path to change settings file location.
-            string settingsPath = @"c:\DiscordInfinitePing\settings.json";
-            Settings settings = new Settings(10, 20);
+            // Call when pressing start.
+            await StartPing();
+        }
 
+        public static async Task StartPing()
+        {
             if (File.Exists(settingsPath))
             {
                 settings = JsonConvert.DeserializeObject<Settings>(File.ReadAllText(settingsPath));
             }
             else
             {
-                if (!Directory.Exists(@"c:\DiscordInfinitePing\"))
+                if (!Directory.Exists(@"c:\Discord-Infinite-Ping\"))
                 {
-                    Directory.CreateDirectory(@"c:\DiscordInfinitePing\");
+                    Directory.CreateDirectory(@"c:\Discord-Infinite-Ping\");
                 }
 
                 File.WriteAllText(settingsPath, JsonConvert.SerializeObject(settings));
             }
 
-            await new MainLoop().PingLoop(settings);
+            settings.IsRunning = true;
+
+            await new SoundPlayer().PingLoop(settings);
         }
     }
 }

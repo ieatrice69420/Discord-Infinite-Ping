@@ -1,6 +1,6 @@
 ﻿namespace DiscordInfinitePing
 {
-    partial class Form1
+    partial class discordInfinitePingWindow
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,22 +28,78 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(discordInfinitePingWindow));
+            this.minDelayBetweenPingsInput = new System.Windows.Forms.TextBox();
+            this.minDelayBetweenPingsLabel = new System.Windows.Forms.Label();
+            this.maxDelayBetweenPingsLabel = new System.Windows.Forms.Label();
+            this.maxDelayBetweenPingsInput = new System.Windows.Forms.TextBox();
+            this.startButton = new System.Windows.Forms.Button();
+            this.stopButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Form1
+            // minDelayBetweenPingsInput
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            resources.ApplyResources(this.minDelayBetweenPingsInput, "minDelayBetweenPingsInput");
+            this.minDelayBetweenPingsInput.Name = "minDelayBetweenPingsInput";
+            // 
+            // minDelayBetweenPingsLabel
+            // 
+            resources.ApplyResources(this.minDelayBetweenPingsLabel, "minDelayBetweenPingsLabel");
+            this.minDelayBetweenPingsLabel.Name = "minDelayBetweenPingsLabel";
+            this.minDelayBetweenPingsLabel.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // maxDelayBetweenPingsLabel
+            // 
+            resources.ApplyResources(this.maxDelayBetweenPingsLabel, "maxDelayBetweenPingsLabel");
+            this.maxDelayBetweenPingsLabel.Name = "maxDelayBetweenPingsLabel";
+            this.maxDelayBetweenPingsLabel.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // maxDelayBetweenPingsInput
+            // 
+            resources.ApplyResources(this.maxDelayBetweenPingsInput, "maxDelayBetweenPingsInput");
+            this.maxDelayBetweenPingsInput.Name = "maxDelayBetweenPingsInput";
+            this.maxDelayBetweenPingsInput.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // startButton
+            // 
+            resources.ApplyResources(this.startButton, "startButton");
+            this.startButton.Name = "startButton";
+            this.startButton.UseVisualStyleBackColor = true;
+            this.startButton.Click += new System.EventHandler(this.StartButtonClick);
+            // 
+            // stopButton
+            // 
+            resources.ApplyResources(this.stopButton, "stopButton");
+            this.stopButton.Name = "stopButton";
+            this.stopButton.UseVisualStyleBackColor = true;
+            this.stopButton.Click += new System.EventHandler(this.StopButtonClick);
+            // 
+            // discordInfinitePingWindow
+            // 
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.stopButton);
+            this.Controls.Add(this.startButton);
+            this.Controls.Add(this.maxDelayBetweenPingsLabel);
+            this.Controls.Add(this.maxDelayBetweenPingsInput);
+            this.Controls.Add(this.minDelayBetweenPingsLabel);
+            this.Controls.Add(this.minDelayBetweenPingsInput);
+            this.Name = "discordInfinitePingWindow";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox minDelayBetweenPingsInput;
+        private System.Windows.Forms.Label minDelayBetweenPingsLabel;
+        private System.Windows.Forms.Label maxDelayBetweenPingsLabel;
+        private System.Windows.Forms.TextBox maxDelayBetweenPingsInput;
+        private System.Windows.Forms.Button startButton;
+        private System.Windows.Forms.Button stopButton;
     }
 }
 

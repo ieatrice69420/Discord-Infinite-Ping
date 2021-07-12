@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DiscordInfinitePing
 {
-    public partial class Form1 : Form
+    public partial class discordInfinitePingWindow : Form
     {
-        public Form1()
+        public discordInfinitePingWindow()
         {
             InitializeComponent();
         }
@@ -20,6 +20,40 @@ namespace DiscordInfinitePing
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StopButtonClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private async void StartButtonClick(object sender, EventArgs e)
+        {
+            Settings settings = Program.settings;
+
+            settings = new Settings(settings.MinDelayBetweenPings, settings.MaxDelayBetweenPings, false);
+
+            await Program.StartPing();
         }
     }
 }

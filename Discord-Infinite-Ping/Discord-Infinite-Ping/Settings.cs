@@ -6,11 +6,13 @@ namespace DiscordInfinitePing
     {
         public int MinDelayBetweenPings;
         public int MaxDelayBetweenPings;
+        public bool IsRunning;
 
-        public Settings(int minDelayBetweenPings, int maxDelayBetweenPings)
+        public Settings(int minDelayBetweenPings, int maxDelayBetweenPings, bool isRunning)
         {
             MinDelayBetweenPings = minDelayBetweenPings;
             MaxDelayBetweenPings = maxDelayBetweenPings;
+            IsRunning = isRunning;
         }
     }
 }
