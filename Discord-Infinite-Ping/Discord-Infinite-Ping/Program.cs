@@ -11,29 +11,18 @@ namespace DiscordInfinitePing
     {
         // Change this path to change settings file location.
         public static string settingsPath = @"c:\Discord-Infinite-Ping\settings.json";
-        public static Settings settings = new Settings(10, 20, true);
+        public static Settings CurrentSettings = new Settings(10, 20, false);
 
 
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
-        static async Task Main()
-        {
-            Application.SetHighDpiMode(HighDpiMode.SystemAware);
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new discordInfinitePingWindow());
-
-            // Call when pressing start.
-            await StartPing();
-        }
-
-        public static async Task StartPing()
+        static void Main()
         {
             if (File.Exists(settingsPath))
             {
-                settings = JsonConvert.DeserializeObject<Settings>(File.ReadAllText(settingsPath));
+                CurrentSettings = JsonConvert.DeserializeObject<Settings>(File.ReadAllText(settingsPath));
             }
             else
             {
@@ -42,12 +31,25 @@ namespace DiscordInfinitePing
                     Directory.CreateDirectory(@"c:\Discord-Infinite-Ping\");
                 }
 
-                File.WriteAllText(settingsPath, JsonConvert.SerializeObject(settings));
+                File.WriteAllText(settingsPath, JsonConvert.SerializeObject(CurrentSettings));
             }
 
-            settings.IsRunning = true;
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new discordInfinitePingWindow());
+        }
 
-            await new SoundPlayer().PingLoop(settings);
+        public static void StopPing()
+        {
+            CurrentSettings = new Settings(CurrentSettings.MinDelayBetweenPings, CurrentSettings.MaxDelayBetweenPings, false);
+        }
+
+        public static async Task StartPing()
+        {
+            CurrentSettings = new Settings(CurrentSettings.MinDelayBetweenPings, CurrentSettings.MaxDelayBetweenPings, true);
+
+            await new PingPlayer().PingLoop();
         }
     }
 }

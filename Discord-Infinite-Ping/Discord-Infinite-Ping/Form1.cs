@@ -44,16 +44,32 @@ namespace DiscordInfinitePing
 
         private void StopButtonClick(object sender, EventArgs e)
         {
-
+            Program.StopPing();
         }
 
         private async void StartButtonClick(object sender, EventArgs e)
         {
-            Settings settings = Program.settings;
-
-            settings = new Settings(settings.MinDelayBetweenPings, settings.MaxDelayBetweenPings, false);
-
             await Program.StartPing();
+        }
+
+        private void Save_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StopButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SaveButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StartButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

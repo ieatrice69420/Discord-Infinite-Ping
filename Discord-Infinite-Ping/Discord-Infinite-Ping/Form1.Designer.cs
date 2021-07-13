@@ -35,6 +35,7 @@
             this.maxDelayBetweenPingsInput = new System.Windows.Forms.TextBox();
             this.startButton = new System.Windows.Forms.Button();
             this.stopButton = new System.Windows.Forms.Button();
+            this.saveButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // minDelayBetweenPingsInput
@@ -65,20 +66,28 @@
             resources.ApplyResources(this.startButton, "startButton");
             this.startButton.Name = "startButton";
             this.startButton.UseVisualStyleBackColor = true;
-            this.startButton.Click += new System.EventHandler(this.StartButtonClick);
+            this.startButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
             // stopButton
             // 
             resources.ApplyResources(this.stopButton, "stopButton");
             this.stopButton.Name = "stopButton";
             this.stopButton.UseVisualStyleBackColor = true;
-            this.stopButton.Click += new System.EventHandler(this.StopButtonClick);
+            this.stopButton.Click += new System.EventHandler(this.StopButton_Click);
+            // 
+            // saveButton
+            // 
+            resources.ApplyResources(this.saveButton, "saveButton");
+            this.saveButton.Name = "saveButton";
+            this.saveButton.UseVisualStyleBackColor = true;
+            this.saveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // discordInfinitePingWindow
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
+            this.Controls.Add(this.saveButton);
             this.Controls.Add(this.stopButton);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.maxDelayBetweenPingsLabel);
@@ -100,6 +109,7 @@
         private System.Windows.Forms.TextBox maxDelayBetweenPingsInput;
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.Button stopButton;
+        private System.Windows.Forms.Button saveButton;
     }
 }
 
