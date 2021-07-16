@@ -1,0 +1,2 @@
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\bin\Release\netcoreapp3.1\publish\Discord-Infinite-Ping.pdb
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\bin\Release\netcoreapp3.1\publish\Discord-Infinite-Ping.exe

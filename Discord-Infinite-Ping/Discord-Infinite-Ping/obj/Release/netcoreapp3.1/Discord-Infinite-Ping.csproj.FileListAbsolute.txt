@@ -1,0 +1,17 @@
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\bin\Release\netcoreapp3.1\Discord-Infinite-Ping.exe
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\bin\Release\netcoreapp3.1\Discord-Infinite-Ping.deps.json
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\bin\Release\netcoreapp3.1\Discord-Infinite-Ping.runtimeconfig.json
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\bin\Release\netcoreapp3.1\Discord-Infinite-Ping.runtimeconfig.dev.json
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\bin\Release\netcoreapp3.1\Discord-Infinite-Ping.dll
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\bin\Release\netcoreapp3.1\Discord-Infinite-Ping.pdb
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\Discord-Infinite-Ping.csproj.AssemblyReference.cache
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\DiscordInfinitePing.discordInfinitePingWindow.resources
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\Discord-Infinite-Ping.csproj.GenerateResource.cache
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\Discord-Infinite-Ping.AssemblyInfoInputs.cache
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\Discord-Infinite-Ping.AssemblyInfo.cs
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\Discord-Infinite-Ping.csproj.CoreCompileInputs.cache
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\Discord-Infinite-Ping.csproj.CopyComplete
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\Discord-Infinite-Ping.dll
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\Discord-Infinite-Ping.pdb
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\Discord-Infinite-Ping.genruntimeconfig.cache
