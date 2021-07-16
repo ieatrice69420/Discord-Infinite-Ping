@@ -42,6 +42,7 @@
             // 
             resources.ApplyResources(this.minDelayBetweenPingsInput, "minDelayBetweenPingsInput");
             this.minDelayBetweenPingsInput.Name = "minDelayBetweenPingsInput";
+            this.minDelayBetweenPingsInput.TextChanged += new System.EventHandler(this.minDelayBetweenPingsInput_TextChanged);
             // 
             // minDelayBetweenPingsLabel
             // 
@@ -59,7 +60,7 @@
             // 
             resources.ApplyResources(this.maxDelayBetweenPingsInput, "maxDelayBetweenPingsInput");
             this.maxDelayBetweenPingsInput.Name = "maxDelayBetweenPingsInput";
-            this.maxDelayBetweenPingsInput.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.maxDelayBetweenPingsInput.TextChanged += new System.EventHandler(this.maxDelayBetweenPingsInput_TextChanged);
             // 
             // startButton
             // 
@@ -95,7 +96,7 @@
             this.Controls.Add(this.minDelayBetweenPingsLabel);
             this.Controls.Add(this.minDelayBetweenPingsInput);
             this.Name = "discordInfinitePingWindow";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.DiscordInfinitePingWindow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -72,6 +72,9 @@
   <data name="minDelayBetweenPingsInput.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="minDelayBetweenPingsInput.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
   <data name="&gt;&gt;minDelayBetweenPingsInput.Name" xml:space="preserve">
     <value>minDelayBetweenPingsInput</value>
   </data>
@@ -149,6 +152,9 @@
   </data>
   <data name="maxDelayBetweenPingsInput.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="maxDelayBetweenPingsInput.Text" xml:space="preserve">
+    <value>20</value>
   </data>
   <data name="&gt;&gt;maxDelayBetweenPingsInput.Name" xml:space="preserve">
     <value>maxDelayBetweenPingsInput</value>
