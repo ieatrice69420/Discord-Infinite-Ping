@@ -8,7 +8,7 @@ namespace DiscordInfinitePing
     public class PingPlayer
     {
         // Enter ping sound file location here
-        SoundPlayer player = new SoundPlayer(@"d:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\discord-notification.wav");
+        SoundPlayer player = new SoundPlayer(@"c:\Discord-Infinite-Ping\discord-notification");
 
         public async Task PingLoop()
         {
