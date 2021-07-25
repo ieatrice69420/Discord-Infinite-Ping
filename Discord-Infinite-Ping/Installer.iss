@@ -11,19 +11,19 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{DB268BAA-10C5-45F8-9387-240723E6F48A}
-AppName={#MyAppName}
-AppVersion={#MyAppVersion}
+AppName=Discord Infinite Ping
+AppVersion=v0.2-beta.0
 ;AppVerName={#MyAppName} {#MyAppVersion}
-AppPublisher={#MyAppPublisher}
-AppPublisherURL={#MyAppURL}
-AppSupportURL={#MyAppURL}
-AppUpdatesURL={#MyAppURL}
-DefaultDirName={autopf}\{#MyAppName}
+AppPublisher=ieatrice
+AppPublisherURL=https://github.com/ieatrice69420/Discord-Infinite-Ping
+AppSupportURL=https://github.com/ieatrice69420/Discord-Infinite-Ping/issues
+AppUpdatesURL=https://github.com/ieatrice69420/Discord-Infinite-Ping/releases
+DefaultDirName=Discord Infinite Ping
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=commandline
-OutputBaseFilename=mysetup
+OutputBaseFilename=Discord Infinite Ping
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
