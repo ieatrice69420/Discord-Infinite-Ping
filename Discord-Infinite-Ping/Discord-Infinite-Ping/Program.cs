@@ -37,7 +37,7 @@ namespace DiscordInfinitePing
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new discordInfinitePingWindow());
+            StartPing().GetAwaiter().GetResult();
         }
 
         public static void StopPing()
@@ -47,7 +47,7 @@ namespace DiscordInfinitePing
 
         public static async Task StartPing()
         {
-            CurrentSettings = new Settings(CurrentSettings.MinDelayBetweenPings, CurrentSettings.MaxDelayBetweenPings, true);
+            CurrentSettings = new Settings(/*CurrentSettings.MinDelayBetweenPings*/10, /*CurrentSettings.MaxDelayBetweenPings*/ 20, true);
 
             await new PingPlayer().PingLoop();
         }
