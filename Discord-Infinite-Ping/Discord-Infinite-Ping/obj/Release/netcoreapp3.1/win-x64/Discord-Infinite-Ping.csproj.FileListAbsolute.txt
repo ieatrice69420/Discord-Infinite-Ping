@@ -495,3 +495,4 @@ D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\
 D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\win-x64\Discord-Infinite-Ping.dll
 D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\win-x64\Discord-Infinite-Ping.pdb
 D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\win-x64\Discord-Infinite-Ping.genruntimeconfig.cache
+D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\obj\Release\netcoreapp3.1\win-x64\Discord-Infinite-Ping.csproj.AssemblyReference.cache

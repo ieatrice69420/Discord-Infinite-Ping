@@ -104,5 +104,10 @@ namespace DiscordInfinitePing
         {
 
         }
+
+        private void HideButton_Click(object sender, EventArgs e)
+        {
+            Hide();
+        }
     }
 }

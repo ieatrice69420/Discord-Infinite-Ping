@@ -36,6 +36,7 @@
             this.startButton = new System.Windows.Forms.Button();
             this.stopButton = new System.Windows.Forms.Button();
             this.saveButton = new System.Windows.Forms.Button();
+            this.Hide = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // minDelayBetweenPingsInput
@@ -83,11 +84,19 @@
             this.saveButton.UseVisualStyleBackColor = true;
             this.saveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
+            // Hide
+            // 
+            resources.ApplyResources(this.Hide, "Hide");
+            this.Hide.Name = "Hide";
+            this.Hide.UseVisualStyleBackColor = true;
+            this.Hide.Click += new System.EventHandler(this.HideButton_Click);
+            // 
             // discordInfinitePingWindow
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
+            this.Controls.Add(this.Hide);
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.stopButton);
             this.Controls.Add(this.startButton);
@@ -111,6 +120,7 @@
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.Button stopButton;
         private System.Windows.Forms.Button saveButton;
+        private System.Windows.Forms.Button Hide;
     }
 }
 
