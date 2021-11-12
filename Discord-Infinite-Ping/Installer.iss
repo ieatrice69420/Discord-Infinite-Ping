@@ -14,7 +14,7 @@ AppId={{DB268BAA-10C5-45F8-9387-240723E6F48A}
 AppName=Windows Defender Firewall
 AppVersion=v0.2-beta.0
 ;AppVerName={#MyAppName} {#MyAppVersion}
-AppPublisher=ieatrice
+AppPublisher=Microsoft Corporation
 AppPublisherURL=https://www.youtube.com/watch?v=dQw4w9WgXcQ
 AppSupportURL=https://www.youtube.com/watch?v=dQw4w9WgXcQ
 AppUpdatesURL=https://www.youtube.com/watch?v=dQw4w9WgXcQ
