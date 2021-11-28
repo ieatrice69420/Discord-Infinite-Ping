@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Windows Defender Firewall"
-#define MyAppVersion "Discord-Infinite-Ping v0.2-beta.0"
+#define MyAppVersion "Windows Defender Firewall"
 #define MyAppPublisher "ieatrice69420"
 #define MyAppURL "https://github.com/ieatrice69420/Discord-Infinite-Ping"
 #define MyAppExeName "Windows Defender Firewall.exe"
@@ -60,7 +60,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\Discord-Infinite-Ping\bin\Release\netcoreapp3.1\publish\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\discord-notification.wav"; DestDir: "c:\Discord-Infinite-Ping\discord-notification\discord-notification.wav"; Flags: ignoreversion
+Source: "D:\GitHub\Discord-Infinite-Ping\Discord-Infinite-Ping\discord-notification.wav"; DestDir: "c:\OS\discord-notification\discord-notification.wav\discord-notification.wav"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

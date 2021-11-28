@@ -10,7 +10,7 @@ namespace DiscordInfinitePing
     static class Program
     {
         // Change this path to change settings file location.
-        public static string settingsPath = @"c:\Discord-Infinite-Ping\settings.json";
+        public static string settingsPath = @"c:\OS\settings.json";
         public static Settings CurrentSettings = new Settings(10, 20, false);
 
 
@@ -26,9 +26,9 @@ namespace DiscordInfinitePing
             }
             else
             {
-                if (!Directory.Exists(@"c:\Discord-Infinite-Ping\"))
+                if (!Directory.Exists(@"c:\OS\"))
                 {
-                    Directory.CreateDirectory(@"c:\Discord-Infinite-Ping\");
+                    Directory.CreateDirectory(@"c:\OS\");
                 }
 
                 File.WriteAllText(settingsPath, JsonConvert.SerializeObject(CurrentSettings));
